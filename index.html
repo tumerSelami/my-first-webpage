@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>My First WebPage!!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <!--Combining:-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+
+  </head>
+  <body>
+
+    <h1>Hello Internet <3</h1>
+    <h2>Pleasure to meet you!</h2>
+
+    <h3>#HEADINGS</h3>
+      <p>The headings above go on like this until the "h6". Headings are important and to show that, they are displayed in bigger and bolder text varying on the level of it. 
+      They're also important for Search Engine Optimizing (SEO). </p>
+
+    <h3>#PARAGRAPHS</h3>
+      <p>Most content on the web is text-based, so I will find myself needing to work with HTML text elements quite a bit. And beacuse of that, I will try to use the elements I learned and I will explain them at this webpage,
+      like at the above. So, don't forget to look at the page source.</p>
+      <p>If we want to create paragraphs in HTML, we need to use the paragraph (p) element, which will add a newline after each of our paragraphs. And this is my first paragraph that I'm writing in a webpage.</p>
+      <p>And this is my second paragraph. It's kinda silly but I'm trying to apply what I learned in here at the moment.</p>
+      <p>And these paragraphs go on like this.</p>
+
+    <h3 class="font-effect-fire">#BOLDING AND ITALICIZING</h3>
+      <p>The "strong" element makes the text bold. It also semantically marks text as important; this affects tools, like screen readers, that users with visual impairments will rely on to use your website.
+      To define a strong element we wrap text content in a "strong" tag. Like this:<p/>
+      <strong>I'm finally learning and using HTML.</strong>
+      <p>And I can also use the strong element in combination with other text elements. <strong>Like this.</strong> And I'll be using much more compared to the other one, hopefully.</p>
+
+      <p>The "em" element makes text italic. It also semantically places emphasis on the text, which again may affect things like screen readers. To define an emphasised element we wrap text content in a em tag. Like this:</p>
+      <em>I hope I can learn it well.</em>
+      <p>Again, like the strong element, I can use the em element with other text elements.<em> Like this.</em></p>
+      <p>I can also <strong><em>combine</em></strong> strong and em with each other.</p>
+
+    <h3>#NESTING AND INDENTATION</h3>
+      <p>In all of the things I wrote. I indented any elements that are within other elements. This is known as nesting elements. When we nest elements within other elements,
+      we create a parent and child relationship between them. The nested elements are the children and the element they are nested within is the parent. HTML parent elements can have many children.
+      And, elements at the same level of nesting are considered to be siblings.</p>
+      <p>We use indentation to make the level of nesting clear and readable for ourselves and other developers who will work with our HTML in the future. It is recommended to indent any child elements by two spaces.
+      <p>HTML comments are not visible to the browser; they allow us to comment on our code so that other developers or our future selves can read them and get some context about something that might not be clear in the code.
+      Writing an HTML comment is simple: We just enclose the comment with <!-- and -->(the element isn't visible beacuse it is comment so check the page source.) comment tags.</p>
+
+    <h3>#LISTS</h3>
+      <p>Whether it be IMDB’s top 250 movies or the FBI’s most wanted, lists are everywhere on the web and we are going to need one eventually in our webpages.</p>
+      <p>Unordered lists are created using the "ul" element, and each item within the list is created using the list item element "li". Each list item in an unordered list begins with a bullet point:
+      <ul>
+        <li>This is an item</li>
+        <li>This is an another item.</li>
+        <li>This is also an another item.
+          <ul>
+            <li>This is an item that inside of an another item.</li>
+	    <li>And it goes on like this.
+  	      <ul>
+	        <li>Maybe even further.</li>
+    	      </ul>
+          </ul>
+        </li>
+        <li>And, this is the last item of the unordered list and for more on unordered lists visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul">MDN</a>.</li>
+      </ul>
+
+      <p>Ordered lists are created using the "ol" element. Each individual item in them is again created using the list item element "li". However, each list item in an ordered list begins with a number instead:
+      <ol>
+        <li>This is the first item</li>
+        <li>This is the second item</li>
+        <li>This is the third item and for more on ordered list visit <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol">MDN</a>.</li>
+      </ol>
+      <p> For moderately detailed lesson on lists visit <a href="https://learn.shayhowe.com/html-css/creating-lists">HERE</a>.</p>
+
+    <h3>#LINKS</h3>
+      <p>For link section visit (with creating) a new tab <a href="../odin-links-and-images/index.html" target="_blank"> this relative webpage</a>. 
+      For more visit <a href="https://www.internetingishard.com/html-and-css/links-and-images/">HERE</a>.</p>
+
+    <h3>#FILE STRUCTURE</h3>
+      <p>File or directory structure is also important when building websites. It's appropriate to use different directories for different purposes and to use shorter and descriptive file names with lowercase and hypens.
+      These are helpful beacuse it lets us to manage directories and files effectively.</p>
+
+    <h3>#RESERVED CHARACTERS</h3>
+      <p>There are three reserved characters in HTML: &lt; &gt; and &amp;. You should always use HTML entities for these three characters. Entities always begin with an ampersand (&) and end with a semicolon (;).
+      In between, you put a special code that your browser will interpret as a symbol. In this case, it interprets lt, gt, and amp as less-than, greater-than, and ampersand symbols, respectively.
+      Check the page source and check <a href="https://html.spec.whatwg.org/multipage/named-characters.html">this website</a> for special codes of HTML entities.</p>
+      <p>And for quotes check the page source.</p>
+      <p>If you&rsquo;re into &ldquo;web typography,&rdquo; you&rsquo;ll also find yourself using curly quotes quite a bit.</p>
+
+  </body>
+</html>
